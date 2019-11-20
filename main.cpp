@@ -2,16 +2,18 @@
 
 #include <maillage.h>
 
-using namespace std;
-
 int main()
 {
-	Maillage M;
+	Maillage mesh;
 
-	double a;
+	auto mean = [](double uL, double uR) { return .5 * (uL + uR); };
+	//auto u0   = [](double x) { return (x < .5 ? 0. : 1.); };
+	//auto u0 = [](double x) { return 1.; };
+	auto u0 = [](double x) { return x; };
 
-	M.consultPosition(10, a);
+	mesh.evaluateOn(u0);
 
-	cout << "Hello World!" << endl;
+	std::cout << mesh << "\n";
+
 	return 0;
 }

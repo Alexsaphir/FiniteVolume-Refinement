@@ -1,8 +1,5 @@
 #include "cellule.h"
 
-Cellule::Cellule()
-= default;
-
 Cellule::Cellule(double a, double b, double uin, Cellule *next)
 {
 	this->a = a;
@@ -20,4 +17,25 @@ Cellule::Cellule(const Cellule &cell)
 	uin = cell.uin;
 
 	next = cell.next;
+}
+
+bool Cellule::isTail() const
+{
+	return next == nullptr;
+}
+
+double Cellule::length() const
+{
+	return b - a;
+}
+
+double Cellule::mid() const
+{
+	return .5 * (a + b);
+}
+
+std::ostream& operator<<(std::ostream& out, const Cellule& cell)
+{
+	out << '[' << cell.a << ", " << cell.uin << ", " << cell.b << ']';
+	return out;
 }
