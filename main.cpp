@@ -4,7 +4,7 @@
 
 int main()
 {
-	Mesh mesh;
+	Mesh mesh(-2.,2.,4.);
 
 	auto mean = [](double uL, double uR) { return .5 * (uL + uR); };
 	//auto u0   = [](double x) { return (x < .5 ? 0. : 1.); };
@@ -14,6 +14,7 @@ int main()
 	//mesh.evaluateOn(u0);
 
 	std::cout << mesh << "\n";
+
 
 	return 0;
 }

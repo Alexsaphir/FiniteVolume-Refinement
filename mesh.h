@@ -1,7 +1,7 @@
 #ifndef MESH_H
 #define MESH_H
 
-#include <ostream>
+#include <iostream>
 
 class Cell;
 
@@ -23,6 +23,4 @@ public:
 	friend class SolverFV;
 	friend std::ostream& operator<<(std::ostream& out, const Mesh& M);
 };
-
-std::ostream& operator<<(std::ostream& out, const Mesh& M);
 #endif // MESH_H

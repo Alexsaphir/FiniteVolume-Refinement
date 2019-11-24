@@ -8,10 +8,8 @@ include_directories(.)
 add_executable(Raffinement
         cell.cpp
         cell.h
-        cellule.cpp
-        cellule.h
-        maillage.cpp
-        maillage.h
         main.cpp
         mesh.cpp
-        mesh.h)
+        mesh.h
+        solverfv.cpp
+        solverfv.h)

@@ -3,6 +3,8 @@
 
 #include <iostream>
 
+#include "mesh.h"
+
 class Cell
 {
 public:
@@ -25,6 +27,7 @@ public:
 	friend class Mesh;
 	friend class SolverFV;
 	friend std::ostream& operator<<(std::ostream& out, const Cell& cell);
+	friend std::ostream& operator<<(std::ostream& out, const Mesh& M);
 };
 
 #endif // CELL_H
