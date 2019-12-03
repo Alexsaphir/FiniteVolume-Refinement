@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Raffinement"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Devellopement/Tools/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Devellopement/Tools/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Devellopement/Tools/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Devellopement/Tools/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Raffinement">
+				<Option output="C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug/Raffinement.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/micro/CLionProjects/FiniteVolume-Refinement/."/>
+					<Add directory="C:/Devellopement/Tools/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Devellopement/Tools/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Devellopement/Tools/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Devellopement/Tools/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Devellopement/Tools/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Devellopement/Tools/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Devellopement/Tools/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug/Makefile&quot;  VERBOSE=1 Raffinement"/>
+					<CompileFile command="C:/Devellopement/Tools/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Devellopement/Tools/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Devellopement/Tools/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Raffinement/fast">
+				<Option output="C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug/Raffinement.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/micro/CLionProjects/FiniteVolume-Refinement/."/>
+					<Add directory="C:/Devellopement/Tools/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Devellopement/Tools/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Devellopement/Tools/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Devellopement/Tools/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Devellopement/Tools/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Devellopement/Tools/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Devellopement/Tools/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug/Makefile&quot;  VERBOSE=1 Raffinement/fast"/>
+					<CompileFile command="C:/Devellopement/Tools/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Devellopement/Tools/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Devellopement/Tools/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Devellopement/Tools/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Devellopement/Tools/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Devellopement/Tools/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Devellopement/Tools/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Devellopement/Tools/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Devellopement/Tools/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Devellopement/Tools/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Devellopement/Tools/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/micro/CLionProjects/FiniteVolume-Refinement/Mesh/cell.cpp">
+			<Option target="Raffinement"/>
+		</Unit>
+		<Unit filename="C:/Users/micro/CLionProjects/FiniteVolume-Refinement/Mesh/cell.h">
+			<Option target="Raffinement"/>
+		</Unit>
+		<Unit filename="C:/Users/micro/CLionProjects/FiniteVolume-Refinement/Mesh/mesh.cpp">
+			<Option target="Raffinement"/>
+		</Unit>
+		<Unit filename="C:/Users/micro/CLionProjects/FiniteVolume-Refinement/Mesh/mesh.h">
+			<Option target="Raffinement"/>
+		</Unit>
+		<Unit filename="C:/Users/micro/CLionProjects/FiniteVolume-Refinement/Solver/Burgers/Godunov/solverburgersgodunov.cpp">
+			<Option target="Raffinement"/>
+		</Unit>
+		<Unit filename="C:/Users/micro/CLionProjects/FiniteVolume-Refinement/Solver/Burgers/Godunov/solverburgersgodunov.h">
+			<Option target="Raffinement"/>
+		</Unit>
+		<Unit filename="C:/Users/micro/CLionProjects/FiniteVolume-Refinement/Solver/Burgers/LaxFriedrichs/solverburgerslaxfriedrichs.cpp">
+			<Option target="Raffinement"/>
+		</Unit>
+		<Unit filename="C:/Users/micro/CLionProjects/FiniteVolume-Refinement/Solver/Burgers/LaxFriedrichs/solverburgerslaxfriedrichs.h">
+			<Option target="Raffinement"/>
+		</Unit>
+		<Unit filename="C:/Users/micro/CLionProjects/FiniteVolume-Refinement/Solver/Burgers/solverburgers.cpp">
+			<Option target="Raffinement"/>
+		</Unit>
+		<Unit filename="C:/Users/micro/CLionProjects/FiniteVolume-Refinement/Solver/Burgers/solverburgers.h">
+			<Option target="Raffinement"/>
+		</Unit>
+		<Unit filename="C:/Users/micro/CLionProjects/FiniteVolume-Refinement/Solver/Linear/LaxFriedrichs/solverlinearlaxfriedrichs.cpp">
+			<Option target="Raffinement"/>
+		</Unit>
+		<Unit filename="C:/Users/micro/CLionProjects/FiniteVolume-Refinement/Solver/Linear/LaxFriedrichs/solverlinearlaxfriedrichs.h">
+			<Option target="Raffinement"/>
+		</Unit>
+		<Unit filename="C:/Users/micro/CLionProjects/FiniteVolume-Refinement/Solver/Linear/Upwind/solverlinearupwind.cpp">
+			<Option target="Raffinement"/>
+		</Unit>
+		<Unit filename="C:/Users/micro/CLionProjects/FiniteVolume-Refinement/Solver/Linear/Upwind/solverlinearupwind.h">
+			<Option target="Raffinement"/>
+		</Unit>
+		<Unit filename="C:/Users/micro/CLionProjects/FiniteVolume-Refinement/Solver/Linear/solverlinear.cpp">
+			<Option target="Raffinement"/>
+		</Unit>
+		<Unit filename="C:/Users/micro/CLionProjects/FiniteVolume-Refinement/Solver/Linear/solverlinear.h">
+			<Option target="Raffinement"/>
+		</Unit>
+		<Unit filename="C:/Users/micro/CLionProjects/FiniteVolume-Refinement/Solver/solverfv.cpp">
+			<Option target="Raffinement"/>
+		</Unit>
+		<Unit filename="C:/Users/micro/CLionProjects/FiniteVolume-Refinement/Solver/solverfv.h">
+			<Option target="Raffinement"/>
+		</Unit>
+		<Unit filename="C:/Users/micro/CLionProjects/FiniteVolume-Refinement/main.cpp">
+			<Option target="Raffinement"/>
+		</Unit>
+		<Unit filename="C:/Users/micro/CLionProjects/FiniteVolume-Refinement/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

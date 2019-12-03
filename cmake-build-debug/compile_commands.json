@@ -1,0 +1,52 @@
+[
+{
+  "directory": "C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug",
+  "command": "C:\\Devellopement\\Tools\\mingw\\mingw64\\bin\\g++.exe   @CMakeFiles/Raffinement.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\Raffinement.dir\\main.cpp.obj -c C:\\Users\\micro\\CLionProjects\\FiniteVolume-Refinement\\main.cpp",
+  "file": "C:/Users/micro/CLionProjects/FiniteVolume-Refinement/main.cpp"
+},
+{
+  "directory": "C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug",
+  "command": "C:\\Devellopement\\Tools\\mingw\\mingw64\\bin\\g++.exe   @CMakeFiles/Raffinement.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\Raffinement.dir\\Mesh\\cell.cpp.obj -c C:\\Users\\micro\\CLionProjects\\FiniteVolume-Refinement\\Mesh\\cell.cpp",
+  "file": "C:/Users/micro/CLionProjects/FiniteVolume-Refinement/Mesh/cell.cpp"
+},
+{
+  "directory": "C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug",
+  "command": "C:\\Devellopement\\Tools\\mingw\\mingw64\\bin\\g++.exe   @CMakeFiles/Raffinement.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\Raffinement.dir\\Mesh\\mesh.cpp.obj -c C:\\Users\\micro\\CLionProjects\\FiniteVolume-Refinement\\Mesh\\mesh.cpp",
+  "file": "C:/Users/micro/CLionProjects/FiniteVolume-Refinement/Mesh/mesh.cpp"
+},
+{
+  "directory": "C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug",
+  "command": "C:\\Devellopement\\Tools\\mingw\\mingw64\\bin\\g++.exe   @CMakeFiles/Raffinement.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\Raffinement.dir\\Solver\\solverfv.cpp.obj -c C:\\Users\\micro\\CLionProjects\\FiniteVolume-Refinement\\Solver\\solverfv.cpp",
+  "file": "C:/Users/micro/CLionProjects/FiniteVolume-Refinement/Solver/solverfv.cpp"
+},
+{
+  "directory": "C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug",
+  "command": "C:\\Devellopement\\Tools\\mingw\\mingw64\\bin\\g++.exe   @CMakeFiles/Raffinement.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\Raffinement.dir\\Solver\\Burgers\\solverburgers.cpp.obj -c C:\\Users\\micro\\CLionProjects\\FiniteVolume-Refinement\\Solver\\Burgers\\solverburgers.cpp",
+  "file": "C:/Users/micro/CLionProjects/FiniteVolume-Refinement/Solver/Burgers/solverburgers.cpp"
+},
+{
+  "directory": "C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug",
+  "command": "C:\\Devellopement\\Tools\\mingw\\mingw64\\bin\\g++.exe   @CMakeFiles/Raffinement.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\Raffinement.dir\\Solver\\Burgers\\LaxFriedrichs\\solverburgerslaxfriedrichs.cpp.obj -c C:\\Users\\micro\\CLionProjects\\FiniteVolume-Refinement\\Solver\\Burgers\\LaxFriedrichs\\solverburgerslaxfriedrichs.cpp",
+  "file": "C:/Users/micro/CLionProjects/FiniteVolume-Refinement/Solver/Burgers/LaxFriedrichs/solverburgerslaxfriedrichs.cpp"
+},
+{
+  "directory": "C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug",
+  "command": "C:\\Devellopement\\Tools\\mingw\\mingw64\\bin\\g++.exe   @CMakeFiles/Raffinement.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\Raffinement.dir\\Solver\\Burgers\\Godunov\\solverburgersgodunov.cpp.obj -c C:\\Users\\micro\\CLionProjects\\FiniteVolume-Refinement\\Solver\\Burgers\\Godunov\\solverburgersgodunov.cpp",
+  "file": "C:/Users/micro/CLionProjects/FiniteVolume-Refinement/Solver/Burgers/Godunov/solverburgersgodunov.cpp"
+},
+{
+  "directory": "C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug",
+  "command": "C:\\Devellopement\\Tools\\mingw\\mingw64\\bin\\g++.exe   @CMakeFiles/Raffinement.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\Raffinement.dir\\Solver\\Linear\\solverlinear.cpp.obj -c C:\\Users\\micro\\CLionProjects\\FiniteVolume-Refinement\\Solver\\Linear\\solverlinear.cpp",
+  "file": "C:/Users/micro/CLionProjects/FiniteVolume-Refinement/Solver/Linear/solverlinear.cpp"
+},
+{
+  "directory": "C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug",
+  "command": "C:\\Devellopement\\Tools\\mingw\\mingw64\\bin\\g++.exe   @CMakeFiles/Raffinement.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\Raffinement.dir\\Solver\\Linear\\Upwind\\solverlinearupwind.cpp.obj -c C:\\Users\\micro\\CLionProjects\\FiniteVolume-Refinement\\Solver\\Linear\\Upwind\\solverlinearupwind.cpp",
+  "file": "C:/Users/micro/CLionProjects/FiniteVolume-Refinement/Solver/Linear/Upwind/solverlinearupwind.cpp"
+},
+{
+  "directory": "C:/Users/micro/CLionProjects/FiniteVolume-Refinement/cmake-build-debug",
+  "command": "C:\\Devellopement\\Tools\\mingw\\mingw64\\bin\\g++.exe   @CMakeFiles/Raffinement.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\Raffinement.dir\\Solver\\Linear\\LaxFriedrichs\\solverlinearlaxfriedrichs.cpp.obj -c C:\\Users\\micro\\CLionProjects\\FiniteVolume-Refinement\\Solver\\Linear\\LaxFriedrichs\\solverlinearlaxfriedrichs.cpp",
+  "file": "C:/Users/micro/CLionProjects/FiniteVolume-Refinement/Solver/Linear/LaxFriedrichs/solverlinearlaxfriedrichs.cpp"
+}
+]

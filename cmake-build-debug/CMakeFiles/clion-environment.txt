@@ -1,0 +1,4 @@
+ToolSet: w64 6.0 (local)@C:\Devellopement\Tools\mingw\mingw64
+Options: 
+
+Options:-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
